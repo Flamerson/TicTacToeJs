@@ -51,3 +51,9 @@ table {
     left: 150px;
     display: none;
 }
+@media (max-width: 858px) {
+    table{
+        width: 350px;
+        height: 350px;
+    }
+}
