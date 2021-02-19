@@ -1,0 +1,53 @@
+body{
+    background-color: #0acde0;
+}
+
+table {
+    position: absolute;
+    top: 15%;
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;  
+}
+.player ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+}
+.player ul li a {
+    font-size: 25px;
+    align-items: center;
+    align-content: center;
+}
+.active {
+    color: #fff;
+}
+.player {
+    width: 360px;
+    height: 30px;
+}
+#turn {
+    display: none;
+}
+#Restart {
+    background-color: #fff;
+    color: #0acde0;
+    position: fixed;
+    left: 180px;
+    top: 430px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 25px;
+    font-size: 36px;
+    display: none;
+}
+.win {
+    color: #fff;
+    position: fixed;
+    top: 350px;
+    left: 150px;
+    display: none;
+}
